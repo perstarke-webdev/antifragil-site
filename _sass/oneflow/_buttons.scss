@@ -33,6 +33,7 @@
   (primary, $primary-color),
   (inverse, #fff),
   (light-outline, transparent),
+  (primary-outline, transparent),
   (success, $success-color),
   (warning, $warning-color),
   (danger, $danger-color),
@@ -48,6 +49,10 @@
         @if ($buttoncolor == light-outline) {
           border: 1px solid #fff;
         }
+      @if ($buttoncolor == primary-outline) {
+        border: 1px solid $primary-color;
+      }
+
 
       &:visited {
         @include yiq-contrasted($color);

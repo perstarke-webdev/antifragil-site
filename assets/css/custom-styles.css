@@ -1,1 +1,17 @@
-/* Custom stylesheet, add your own styles here */
+.header-img {
+    width: 50vw !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+@media (max-width: 1000px) {
+    .header-img {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-img {
+        width: 90% !important;
+    }
+}
