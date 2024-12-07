@@ -9,7 +9,7 @@
   width: 100%;
   background-color: $background-color;
 
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1.5px solid $primary-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -47,6 +47,19 @@
 .site-logo img {
   max-height: 3rem;
 }
+
+@media (max-width: 600px) {
+  .site-logo img {
+    max-height: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .site-logo img {
+    max-height: 0.8rem;
+  }
+}
+
 
 .site-title {
   display: -webkit-box;

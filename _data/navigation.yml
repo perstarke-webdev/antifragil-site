@@ -6,6 +6,3 @@ main:
   - title: "Leistungen"
     url: /#services
     blank: false
-  - title: "Kontakt"
-    url: /#contact
-    blank: false
