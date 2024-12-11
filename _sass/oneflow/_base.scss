@@ -346,11 +346,19 @@ Popup / cookie banner
     left: 0;
     right: 0;
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: black;
     background-color: $danger-color;
     padding: 10px;
     border-radius: 5px;
     z-index: 999;
     font-size: 70%;
     text-align: center;
+}
+
+.banner-link {
+  color: black !important;
+}
+
+.banner-link:hover {
+  color: #522d00 !important;
 }
