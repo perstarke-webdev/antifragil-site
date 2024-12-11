@@ -40,7 +40,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/squatsandespressoshots/"
-  copyright: "Per Starke Web Development" # Replace with your own
+  copyright: "David Schuldes" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "Per Starke Web Development"
       url: "https://perstarke-webdev.de"
