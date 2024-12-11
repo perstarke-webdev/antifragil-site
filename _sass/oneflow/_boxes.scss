@@ -2,13 +2,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box-img {
+    flex: 1 1 calc(100% - 20px);
 }
 
 .box {
+    align-content: center;
     border: 1.5px solid black;
     border-radius: 5px;
     background-color: rgba($primary-color, 0.05);
     flex: 1 1 calc(100% - 20px);
+    padding: 0.5rem;
 }
 
 .alternative-color .box {

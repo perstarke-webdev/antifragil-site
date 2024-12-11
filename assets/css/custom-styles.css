@@ -41,3 +41,38 @@
     font-size: 120% !important;
 }
 
+.top-margin {
+    margin-top: 2rem;
+}
+
+
+
+
+.desktop-only {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop-only {
+        display: block;
+    }
+}
+
+.mobile-only {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+.mobile-about-img {
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.smooth-img {
+    border-radius: 5px;
+}
