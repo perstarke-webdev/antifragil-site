@@ -99,7 +99,9 @@
   }
 }
 
-
+.btn--primary-outline:hover {
+  background-color: mix($primary-color, #000, 20%);
+}
 
 .btn-nav {
   position: relative !important;
