@@ -133,6 +133,11 @@
         margin: 0 !important;
         padding: 0 20px;
     }
+
+
+    .btn-mobile {
+        width: 90vw;
+    }
 }
 
 @media (min-width: 768px) {
@@ -146,6 +151,10 @@
         margin-top: 4rem;
         margin-bottom: 2rem;
     }
+}
+
+.small-top-margin {
+    margin-top: 0.5rem;
 }
 
 
