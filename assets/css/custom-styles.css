@@ -4,14 +4,36 @@
     margin: 0 auto !important;
 }
 
+.quote-box {
+    border: 1px solid #F9A94B;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+    width: 50vw;
+    display: block;
+    margin: 2rem auto auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
 @media (max-width: 1000px) {
-    .header-img {
+    .header-img, .quote-box {
         width: 70% !important;
     }
 }
 
 @media (max-width: 767px) {
-    .header-img {
+    .header-img, .quote-box {
         width: 90% !important;
     }
 }
+
+.hero-link {
+    color: #FEEFE0 !important;
+    transition: 0.3s ease;
+}
+
+.hero-link:hover {
+    color: #FEE7CF !important;
+}
+
