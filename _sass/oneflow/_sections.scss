@@ -1,9 +1,6 @@
 .section-sep {
     border: 2px solid;
-    border-image: linear-gradient(to right,
-            mix($danger-color, $text-color, 50%),
-            $primary-color,
-            mix($danger-color, $text-color, 50%)) 1;
+    border-image: linear-gradient(to right, grey, mix($danger-color, #fff, 50%), grey) 1;
     width: 100vw;
     position: relative;
     left: 50%;
