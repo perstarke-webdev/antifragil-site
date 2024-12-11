@@ -4,30 +4,24 @@ title: Impressum und Datenschutz
 permalink: /imprint
 ---
 
-#### German Imprint
-This imprint & privacy note is in German, as I (Per Starke, the responsible person) am German, and it's therefore
-required by German Law. Contact me or use translation tools for an english version. 
-
-<hr>
-
 #### Anbieter und Verantwortliche Person
-Per Starke, Willi-Lauf Allee 43, D-50858 Köln
+Antifragil Physiotherapie  
+David Schuldes  
+Franz-Rücker-Allee 8  
+60487 Frankfurt  
 
 
 #### Kontakt
 Telefon: +49 160 93268817
 <br>
-e-Mail: per_at_starke-team.de
-<br>  
-  
-[Website](https://perstarke-webdev.de/)   
-[Blog](https://blog.perstarke-webdev.de/)
+e-Mail: Schuldes.PT_at_gmail.com
+<br>
 
   
 ## Datenschutzerklärung
 
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Per Starke auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter David Schuldes auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
@@ -81,7 +75,12 @@ FontAwesome nutzt anonyme Zugriffsdaten, die in deren
 [privacy policy](https://fontawesome.com/privacy) spezifiziert sind.
 
 Auf dieser Webseite wird FontAwesome allerdings lokal gehostet und somit keine Daten an FontAwesome weitergegeben.
-<br/>
+
+
+#### Verwendung von Adobe Fonts
+Für die Darstellung dieser Website verwenden wir Schriftarten des Dienstes „Adobe Fonts“. Diese Schriftarten werden von Adobe bereitgestellt und über deren Server geladen. Dabei können von Adobe technische Daten wie Ihre IP-Adresse erhoben werden.
+Weitere Informationen zur Datenverarbeitung durch Adobe Fonts finden Sie in den [Datenschutzbestimmungen von Adobe](https://www.adobe.com/de/privacy/policies/adobe-fonts.html).
+Die Lizenz für die Nutzung dieser Schriftarten ist im Besitz von [Per Starke](https://perstarke-webdev.de/contact), dem Entwickler dieser Website.
 
 
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
