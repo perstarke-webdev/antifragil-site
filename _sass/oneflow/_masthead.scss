@@ -45,21 +45,14 @@
 }
 
 .site-logo img {
-  max-height: 3rem;
+  max-height: 4rem;
 }
 
 @media (max-width: 600px) {
   .site-logo img {
-    max-height: 1.5rem;
+    max-height: 3rem;
   }
 }
-
-@media (max-width: 450px) {
-  .site-logo img {
-    max-height: 0.8rem;
-  }
-}
-
 
 .site-title {
   display: -webkit-box;
