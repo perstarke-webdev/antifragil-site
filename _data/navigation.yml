@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Über mich"
-    url: /#about
-    blank: false
   - title: "Leistungen"
     url: /#services
+    blank: false
+  - title: "Über mich"
+    url: /#about
     blank: false
