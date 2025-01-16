@@ -82,28 +82,6 @@
 
 
 
-
-.services-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.service {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.service-physio {
-    flex: 3;
-}
-
-.service-coaching {
-    flex: 5;
-}
-
 .service-title {
     font-size: 1.8rem;
     font-weight: bold;
@@ -117,39 +95,10 @@
     border-radius: 5px;
 }
 
-.divider {
-    width: 1px;
-    background-color: #F9A94B;
-    display: block;
-}
 
 @media (max-width: 767px) {
-    .services-section {
-        flex-direction: column;
-        gap: 0 !important;
-    }
-
-    .service {
-        margin: 0 !important;
-        padding: 0 20px;
-    }
-
-
     .btn-mobile {
         width: 90vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .services-section {
-        flex-direction: row;
-    }
-
-    .divider {
-        height: auto;
-        align-self: stretch;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
     }
 }
 
@@ -158,3 +107,9 @@
 }
 
 
+
+
+
+.primary-hr {
+    border: 1px solid #F9A94B;
+}
