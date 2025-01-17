@@ -113,3 +113,13 @@
 .primary-hr {
     border: 1px solid #F9A94B;
 }
+
+
+
+ul, ol {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
