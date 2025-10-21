@@ -12,8 +12,6 @@ Bockenheimer Landstraße 106
 
 
 #### Kontakt
-Telefon: +49 160 93268817
-<br>
 e-Mail: Schuldes.PT_at_gmail.com
 <br>
 
