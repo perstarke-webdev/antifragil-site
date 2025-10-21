@@ -5,10 +5,10 @@ permalink: /imprint
 ---
 
 #### Anbieter und Verantwortliche Person
-Antifragil Physiotherapie  
-David Schuldes  
-Franz-Rücker-Allee 8  
-60487 Frankfurt  
+Antifragil Physiotherapie   
+David Schuldes   
+Bockenheimer Landstraße 106   
+60323 Frankfurt  
 
 
 #### Kontakt
