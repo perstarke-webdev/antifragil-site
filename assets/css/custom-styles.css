@@ -244,6 +244,17 @@ tbody tr:nth-child(even) {
     background-color: #FEF6ED;
 }
 
+
+.info-heading {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.small-text {
+    font-size: 0.8em !important;
+}
+
 .btn {
     color: #000 !important;
 }
