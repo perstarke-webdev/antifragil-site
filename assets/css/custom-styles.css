@@ -126,3 +126,47 @@ li {
 .btn:hover {
     background-color: #FBD7A8 !important;
 }
+
+details {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+summary {
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+details[open] {
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th, td {
+    border: 1px solid #eee;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.btn {
+    color: #000 !important;
+}
+
+.btn:hover {
+    background-color: #FBD7A8 !important;
+}
