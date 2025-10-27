@@ -1,2 +1,8 @@
 # main links
 main:
+  - title: "Über mich"
+    url: /#about
+  - title: "Leistungen"
+    url: /#services
+  - title: "Kontakt"
+    url: /#contact
