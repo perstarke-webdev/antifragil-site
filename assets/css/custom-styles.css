@@ -237,11 +237,11 @@ th, td {
 }
 
 th {
-    background-color: #f8f8f8;
+    background-color: #FEF6ED;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f8f8f8;
+    background-color: #FEF6ED;
 }
 
 .btn {
