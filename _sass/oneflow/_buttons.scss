@@ -109,3 +109,7 @@
   margin-right: 2rem !important;
   color: white !important;
 }
+
+.btn-nav:hover {
+  background-color: mix(#fff, $danger-color, 20%) !important;
+}

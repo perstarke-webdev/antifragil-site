@@ -33,7 +33,7 @@
   }
 
   a {
-    color: inherit;
+    color: $link-color;
     text-decoration: none;
 
     &:hover {
@@ -108,7 +108,7 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: $link-color;
+    background: mix(#fff, $primary-color, 20%);
   }
 }
 

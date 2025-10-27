@@ -356,9 +356,9 @@ Popup / cookie banner
 }
 
 .banner-link {
-  color: black !important;
+  color: $link-color !important;
 }
 
 .banner-link:hover {
-  color: #522d00 !important;
+  color: mix(#000, $link-color, 20%) !important;
 }

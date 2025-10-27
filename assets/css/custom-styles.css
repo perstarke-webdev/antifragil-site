@@ -13,7 +13,7 @@
     width: 50vw;
     display: block;
     margin: 2rem auto auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #f8f8f8;
 }
 
 @media (max-width: 1000px) {
@@ -29,12 +29,12 @@
 }
 
 .hero-link {
-    color: #FEEFE0 !important;
+    color: #F28500 !important;
     transition: 0.3s ease;
 }
 
 .hero-link:hover {
-    color: #FEE7CF !important;
+    color: #F9A94B !important;
 }
 
 .notice-bigger {
@@ -117,4 +117,12 @@
 
 li {
     text-align: left;
+}
+
+.btn {
+    color: #000 !important;
+}
+
+.btn:hover {
+    background-color: #FBD7A8 !important;
 }
