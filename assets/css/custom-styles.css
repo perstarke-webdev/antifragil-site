@@ -25,6 +25,66 @@
     margin-bottom: 0;
 }
 
+section#faq details {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 3rem; /* Initial height for closed state */
+}
+section#faq details[open] {
+    max-height: 500px; /* A large enough value to show all content */
+    padding: 1rem;
+}
+
+section#faq summary {
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style: none; /* Hide default marker */
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text horizontally */
+}
+
+section#faq summary::-webkit-details-marker {
+    display: none; /* Hide default marker in webkit browsers */
+}
+
+section#faq summary::before {
+    content: '\25B6'; /* Unicode right-pointing triangle */
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+    transition: transform 0.2s ease-out;
+}
+
+section#faq details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+section#faq details[open] summary {
+    /* Removed margin-bottom to prevent shifting */
+}
+
+section#faq details p,
+section#faq details ul {
+    text-align: left;
+    /* Removed margin-top: 1rem; */
+}
+
+section#faq details[open] {
+    max-height: 500px; /* A large enough value to show all content */
+    padding: 1rem;
+}
+
 #scroll-hero-btn {
     border-radius: 50%;
     width: 50px;
