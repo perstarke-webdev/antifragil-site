@@ -24,9 +24,8 @@
     <div class="wrapper">
       <img src="/assets/images/antifragil-textual-logo.svg" class="header-img">
       <div class="quote-box">
-        "Antifragil ist das Gegenteil von Fragil. Antifragilität ist mehr als Resilienz oder Robustheit. Das Resiliente, das Widerstandsfähige widersteht Schocks und bleibt sich gleich; das Antifragile wird besser."
-        <br><br>
-        <small>~ <a href="https://amzn.eu/d/8mc8pSQ" target="_blank" rel="noopener noreferrer nofollow" class="hero-link">Antifragilität - Anleitung für eine Welt, die wir nicht verstehen. Nassim Nicholas Taleb</a></small>
+        <h2>Antifragil Physiotherapie – Bewegung als Weg zur Stärke</h2>
+        <button id="scroll-hero-btn" class="btn btn--danger"><i class="fas fa-arrow-down"></i></button>
       </div>
       {% if page.header.actions %}
       <div style="text-align: center">
@@ -44,3 +43,18 @@
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var scrollButton = document.getElementById('scroll-hero-btn');
+    if (scrollButton) {
+      scrollButton.addEventListener('click', function() {
+        window.scrollBy({
+          top: window.innerHeight * 0.8,
+          left: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+  });
+</script>
