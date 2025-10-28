@@ -54,6 +54,23 @@ section#faq summary {
     justify-content: center; /* Center text horizontally */
 }
 
+@media (max-width: 767px) {
+    section#faq summary {
+        height: auto;
+        line-height: normal;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    section#faq details {
+        max-height: none !important;
+        height: auto !important;
+        transition: none !important;
+    }
+}
+
 section#faq summary::-webkit-details-marker {
     display: none; /* Hide default marker in webkit browsers */
 }
